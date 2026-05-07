@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olá Mundo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-y9a8B0wmJ+HFXB5AzPDIUJl8pJjR5/uHBbyyv8pijmspQ/D0hM6QraWnbRma7yl56OVyfT4hkTE/U+2f0tuO1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" integrity="sha512-E6pT5WfXJf5Gad15f9/dq4tcihi4CInr5n1ja3YZTgCNvZGVVQ4N75uQvO0PT1GSGv1RxvA+j7O8bu55pZJpGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-vB7oH6jIXrZBBDtC5I3KNnQ8eB0b1kqVBUXhQnxcQeZk8Mz0fJ7GIi8/2dp2OQ7p1f1tvqJm7ZFkC5jF0TUC7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #2c396e 0%, #8c85f3 50%, #040bc8b9 100%);
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .hero {
+        padding: 6rem 0 4rem;
+      }
+      .hero .card {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(12px);
+      }
+      .feature-icon {
+        width: 64px;
+        height: 64px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+      }
+      .btn-glow {
+        box-shadow: 0 0 24px rgba(255, 255, 255, 0.22);
+      }
+      .footer {
+        padding: 2rem 0;
+        background: rgba(255, 255, 255, 0.06);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container hero text-center text-white">
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <span class="badge bg-white text-dark mb-3 px-4 py-2 fs-6">Olá Mundo</span>
+          <h1 class="display-5 fw-bold">Bem-vindo ao seu primeiro projeto</h1>
+          <p class="lead mt-4">Uma landing page simples, moderna e responsiva que usa animações suaves e ícones atraentes para destacar sua mensagem.</p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+            <a href="#features" class="btn btn-light btn-lg btn-glow">Ver Recursos</a>
+            <a href="#" class="btn btn-outline-light btn-lg">Explorar Mais <i class="fas fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <section id="features" class="row g-4">
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="card h-100 p-4 shadow-sm border-0 text-white">
+            <div class="feature-icon mb-3">
+              <i class="fas fa-rocket fa-2x"></i>
+            </div>
+            <h3 class="h5">Inicialização rápida</h3>
+            <p>Comece com um layout responsivo, estilos elegantes e uma animação que chama a atenção em segundos.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 p-4 shadow-sm border-0 text-white">
+            <div class="feature-icon mb-3">
+              <i class="fas fa-magic fa-2x"></i>
+            </div>
+            <h3 class="h5">Animações suaves</h3>
+            <p>Use AOS para animar elementos ao rolar a página e tornar sua interface mais dinâmica e agradável.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
+          <div class="card h-100 p-4 shadow-sm border-0 text-white">
+            <div class="feature-icon mb-3">
+              <i class="fas fa-heart fa-2x"></i>
+            </div>
+            <h3 class="h5">Ícones expressivos</h3>
+            <p>Font Awesome traz mais de mil ícones prontos para usar, transformando seu conteúdo em algo visualmente mais atraente.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="row align-items-center mt-5">
+        <div class="col-lg-6" data-aos="zoom-in">
+          <div class="p-4 card shadow-lg border-0">
+            <h2>Seu Olá Mundo com estilo</h2>
+            <p>Este exemplo combina o poder de um framework CSS robusto, animações de rolagem e uma biblioteca de ícones para criar uma experiência moderna sem escrever muito código.</p>
+            <ul class="list-unstyled mt-4">
+              <li class="mb-3"><i class="fas fa-check-circle me-2 text-success"></i>Responsivo em todos os dispositivos</li>
+              <li class="mb-3"><i class="fas fa-check-circle me-2 text-success"></i>Visual limpo e profissional</li>
+              <li class="mb-3"><i class="fas fa-check-circle me-2 text-success"></i>Fácil de personalizar</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="p-4 text-center text-white">
+            <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);">
+              <div class="d-flex h-100 align-items-center justify-content-center">
+                <div>
+                  <i class="fas fa-code fa-4x mb-4"></i>
+                  <p class="fs-5">Edite este arquivo e veja como o Bootstrap, AOS e Font Awesome trabalham juntos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer text-center text-white">
+      <div class="container">
+        <p class="mb-2"><strong>Olá Mundo</strong> feito com Bootstrap, AOS e Font Awesome.</p>
+        <p class="mb-0"><i class="fab fa-bootstrap me-2"></i><i class="fab fa-font-awesome me-2"></i><i class="fas fa-mountain"></i></p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha512-+pNnY6U2pM1ZP+NZ3xPm2vjxYcFjYuj9zS6pFfS0ut+ksrg5x6ZVYg4e8Ms4Vtbhnrzp6GXwFKsUxyN4I4UHcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js" integrity="sha512-XKNn615jl1kZh4zOylaDBp4EHg9u9qO7SyVd9FqrrXC+DuQHqaiiRj4FPz6dIRp4yBVbQDAa4yaYJzKX0M+Glw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        once: true,
+        easing: 'ease-out-cubic'
+      });
+    </script>
+  </body>
+</html>
